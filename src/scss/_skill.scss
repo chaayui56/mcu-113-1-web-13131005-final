@@ -15,5 +15,14 @@
       justify-content: space-between;
       align-items: center;
     }
+    .progress-bar-warp {
+      height: 10px;
+      border: 1px solid #ccc;
+
+      .progress-bar {
+        height: 10px;
+        background-color: var(--first-color);
+      }
+    }
   }
 }
